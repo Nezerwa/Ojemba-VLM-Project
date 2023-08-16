@@ -5,75 +5,63 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/dist/output.css" rel="stylesheet">
 </head>
+<script>
+  const loadPage = (id,url) => {
+    fetch(url)
+    .then( res => res.text())
+    .then( component => {
+      document.getElementById(id).innerHTML = component
+    })
+  }
+  window.onload = () => {
+    loadPage('hero-section','./src/pages/hero.html')
+    loadPage('managed-teams-section','./src/pages/managedTeams.html')
+    loadPage('unsere-teams-section','./src/pages/unsere.html')
+    loadPage('Qualitat-section','./src/pages/trainingsProgram.html')
+    loadPage('MainbornWolff-TheGym-Maliyo-section','./src/pages/maibornwolff.html')
+    loadPage('founder-section','./src/pages/founders.html')
+    loadPage('map-section','./src/pages/map.html')
+    loadPage('fragen-section','./src/pages/fragen.html')
+    loadPage('footer-section','./src/components/footer.html')
+  }
+</script>
 <body>
   
   <!-- HERO SECTION -->
   
-  <section id="hero-section" class="pt-24 text-white" style="background: url(./assets/BGs/bg_hero.svg); background-position: center; background-size: cover;">
-    Hero Page
-    <div class="w-full py-12" style="background: url(./assets/BGs/bg_hero.svg); background-position: top; background-size: cover;">
-      Hero page footer
-    </div>
-  </section>
+  <section id="hero-section"></section>
   
   <!-- MANAGED TEAMS SECTION -->
   
-  <section id="managed-teams-section" class="pt-24 pb-4">
-    Managed Taems
-  </section>
+  <section id="managed-teams-section"></section>
   
   <!-- UNSERE SECTION -->
   
-  <section id="unsere-teams-section " class="py-32 text-white" style="background: url(./assets/BGs/bg_unsere.svg); background-position: top; background-size: cover;">
-    Content of the Unsere Teams Section
-  </section>
+  <section id="unsere-teams-section"></section>
   
   <!-- QUALITAT SECTION -->
   
-  <section id="Qualitat-section" class="-mt-28">
-    <div class="h-28" id="curve-to-start-Qualitat-section" style="background: url(./assets/BGs/qualitat.svg); background-position: top; background-size: cover;"></div>
-    <div class="bg-[#001342] text-white" id="main-Qualitat-section">
-      Content of the Qualitat section
-    </div>
-    <div class="h-28 rotate-180" id="curve-to-end-Qualitat-section" style="background: url(./assets/BGs/qualitat.svg); background-position: top; background-size: cover;"></div>
-  </section>
+  <section id="Qualitat-section"></section>
   
   <!-- MAINBORNWOLFF X THE GYM X MALIYO SECTION -->
   
-  <section id="MainbornWolff-TheGym-Maliyo-section" class="mt-5">
-    Content for MainbornWolff TheGym Maliyo section
-  </section>
+  <section id="MainbornWolff-TheGym-Maliyo-section"></section>
   
   <!-- FOUNDERS SECTION -->
   
-  <section id="founder-section" class="pt-36 text-white" style="background: url(./assets/BGs/bg_unsere.svg); background-position: top; background-size: cover;">
-    Content of the Founder section
-    <div id="under-founders" class="py-36 mt-20" style="background: url(./assets/BGs/under_founders.svg); background-position: top; background-size: cover;">
-      Comments of the Founders
-    </div>
-  </section>
+  <section id="founder-section"></section>
   
   <!-- MAP SECTION -->
   
-  <section id="map-section" class="">
-    <div class="h-28 -mt-28" id="curve-to-start-Qualitat-section" style="background: url(./assets/BGs/qualitat.svg); background-position: top; background-size: cover;"></div>
-    <div class="text-white bg-[#001342]" id="rwanda-map-section-description">Rwanda map section description</div>
-    <div class="pb-28 text-white" id="map-footer" style="background: url(./assets/BGs/map_footer.svg); background-position: bottom; background-size: cover;">
-      Map Footer
-    </div>
-  </section>
+  <section id="map-section"></section>
   
   <!-- FRAGEN SECTION -->
   
-  <section id="fragen-section" class="pt-8">
-    Fragen Section
-  </section>
+  <section id="fragen-section"></section>
   
   <!-- MAIN FOOTER -->
 
-  <section id="footer-section" class="rotate-180" style="background: url(./assets/BGs/map_footer.svg); background-position: bottom; background-size: cover;">
-    <footer class="rotate-180 text-white pt-28">Footer</footer>
-  </section>
+  <section id="footer-section"></section>
 
 </body>
 </html>
