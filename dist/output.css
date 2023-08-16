@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Tilt+Prism&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;0,700;1,400;1,700&family=Roboto:wght@300;400;700&family=Tilt+Prism&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Raleway:ital,wght@0,500;0,700;1,400;1,700&family=Roboto:wght@300;400;700&family=Tilt+Prism&display=swap');
+
 /*
 ! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
 */
@@ -434,7 +442,7 @@ video {
   display: none;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -484,7 +492,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -534,80 +542,118 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.-mt-28 {
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.-mt-28{
   margin-top: -7rem;
 }
 
-.mt-20 {
+.mt-20{
   margin-top: 5rem;
 }
 
-.mt-5 {
+.mt-5{
   margin-top: 1.25rem;
 }
 
-.mt-28 {
-  margin-top: 7rem;
-}
-
-.h-28 {
+.h-28{
   height: 7rem;
 }
 
-.w-full {
+.w-full{
   width: 100%;
 }
 
-.rotate-180 {
+.max-w-7xl{
+  max-width: 80rem;
+}
+
+.rotate-180{
   --tw-rotate: 180deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.bg-\[\#001342\] {
+.bg-\[\#001342\]{
   --tw-bg-opacity: 1;
   background-color: rgb(0 19 66 / var(--tw-bg-opacity));
 }
 
-.py-12 {
+.py-12{
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
 
-.py-32 {
+.py-32{
   padding-top: 8rem;
   padding-bottom: 8rem;
 }
 
-.py-36 {
+.py-36{
   padding-top: 9rem;
   padding-bottom: 9rem;
 }
 
-.pb-28 {
+.pb-28{
   padding-bottom: 7rem;
 }
 
-.pb-4 {
+.pb-4{
   padding-bottom: 1rem;
 }
 
-.pt-24 {
+.pt-24{
   padding-top: 6rem;
 }
 
-.pt-28 {
+.pt-28{
   padding-top: 7rem;
 }
 
-.pt-36 {
+.pt-36{
   padding-top: 9rem;
 }
 
-.pt-8 {
+.pt-8{
   padding-top: 2rem;
 }
 
-.text-white {
+.font-Roboto{
+  font-family: Roboto, sans-serif;
+}
+
+.font-montserrat{
+  font-family: Montserrat, sans-serif;
+}
+
+.font-raleway{
+  font-family: Raleway, sans-serif;
+}
+
+.font-shwishwi{
+  font-family: Tilt Prism, cursive;
+}
+
+.text-\[60px\]{
+  font-size: 60px;
+}
+
+.font-\[20px\]{
+  font-weight: 20px;
+}
+
+.leading-\[70px\]{
+  line-height: 70px;
+}
+
+.text-\[\#8ACC50\]{
+  --tw-text-opacity: 1;
+  color: rgb(138 204 80 / var(--tw-text-opacity));
+}
+
+.text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
