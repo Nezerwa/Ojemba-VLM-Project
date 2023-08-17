@@ -1,67 +1,69 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/dist/output.css" rel="stylesheet">
-</head>
-<script>
-  const loadPage = (id,url) => {
-    fetch(url)
-    .then( res => res.text())
-    .then( component => {
-      document.getElementById(id).innerHTML = component
-    })
-  }
-  window.onload = () => {
-    loadPage('hero-section','./src/pages/hero.html')
-    loadPage('managed-teams-section','./src/pages/managedTeams.html')
-    loadPage('unsere-teams-section','./src/pages/unsere.html')
-    loadPage('Qualitat-section','./src/pages/trainingsProgram.html')
-    loadPage('MainbornWolff-TheGym-Maliyo-section','./src/pages/maibornwolff.html')
-    loadPage('founder-section','./src/pages/founders.html')
-    loadPage('map-section','./src/pages/map.html')
-    loadPage('fragen-section','./src/pages/fragen.html')
-    loadPage('footer-section','./src/components/footer.html')
-  }
-</script>
-<body>
-  
-  <!-- HERO SECTION -->
-  
-  <section id="hero-section"></section>
-  
-  <!-- MANAGED TEAMS SECTION -->
-  
-  <section id="managed-teams-section"></section>
-  
-  <!-- UNSERE SECTION -->
-  
-  <section id="unsere-teams-section"></section>
-  
-  <!-- QUALITAT SECTION -->
-  
-  <section id="Qualitat-section"></section>
-  
-  <!-- MAINBORNWOLFF X THE GYM X MALIYO SECTION -->
-  
-  <section id="MainbornWolff-TheGym-Maliyo-section"></section>
-  
-  <!-- FOUNDERS SECTION -->
-  
-  <section id="founder-section"></section>
-  
-  <!-- MAP SECTION -->
-  
-  <section id="map-section"></section>
-  
-  <!-- FRAGEN SECTION -->
-  
-  <section id="fragen-section"></section>
-  
-  <!-- MAIN FOOTER -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <script>
+    const loadPage = (id, url) => {
+      fetch(url)
+        .then((res) => res.text())
+        .then((component) => {
+          document.getElementById(id).innerHTML = component;
+        });
+    };
+    window.onload = () => {
+      loadPage("hero-section", "./src/pages/hero.html");
+      loadPage("managed-teams-section", "./src/pages/managedTeams.html");
+      loadPage("unsere-teams-section", "./src/pages/unsere.html");
+      loadPage("Qualitat-section", "./src/pages/trainingsProgram.html");
+      loadPage(
+        "MainbornWolff-TheGym-Maliyo-section",
+        "./src/pages/maibornwolff.html"
+      );
+      loadPage("founder-section", "./src/pages/founders.html");
+      loadPage("map-section", "./src/pages/map.html");
+      loadPage("fragen-section", "./src/pages/fragen.html");
+      loadPage("footer-section", "./src/components/footer.html");
+      loadPage("header", "./src/components/header.html");
+    };
+  </script>
+  <body>
+    <!-- HERO SECTION -->
 
-  <section id="footer-section"></section>
+    <section id="hero-section"></section>
 
-</body>
+    <!-- MANAGED TEAMS SECTION -->
+
+    <section id="managed-teams-section"></section>
+
+    <!-- UNSERE SECTION -->
+
+    <section id="unsere-teams-section"></section>
+
+    <!-- QUALITAT SECTION -->
+
+    <section id="Qualitat-section"></section>
+
+    <!-- MAINBORNWOLFF X THE GYM X MALIYO SECTION -->
+
+    <section id="MainbornWolff-TheGym-Maliyo-section"></section>
+
+    <!-- FOUNDERS SECTION -->
+
+    <section id="founder-section"></section>
+
+    <!-- MAP SECTION -->
+
+    <section id="map-section"></section>
+
+    <!-- FRAGEN SECTION -->
+
+    <section id="fragen-section"></section>
+
+    <!-- MAIN FOOTER -->
+
+    <section id="footer-section"></section>
+  </body>
 </html>
