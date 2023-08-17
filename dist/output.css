@@ -567,6 +567,10 @@ video {
   width: 100%;
 }
 
+.max-w-5xl{
+  max-width: 64rem;
+}
+
 .max-w-7xl{
   max-width: 80rem;
 }
@@ -620,20 +624,12 @@ video {
   padding-top: 2rem;
 }
 
-.font-Roboto{
-  font-family: Roboto, sans-serif;
-}
-
 .font-montserrat{
   font-family: Montserrat, sans-serif;
 }
 
 .font-raleway{
   font-family: Raleway, sans-serif;
-}
-
-.font-shwishwi{
-  font-family: Tilt Prism, cursive;
 }
 
 .text-\[60px\]{
