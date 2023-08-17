@@ -542,8 +542,16 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.absolute{
+  position: absolute;
+}
+
 .relative{
   position: relative;
+}
+
+.-right-36{
+  right: -9rem;
 }
 
 .bottom-2{
@@ -563,8 +571,16 @@ video {
   margin-top: -7rem;
 }
 
+.-mt-\[100px\]{
+  margin-top: -100px;
+}
+
 .mt-20{
   margin-top: 5rem;
+}
+
+.mt-24{
+  margin-top: 6rem;
 }
 
 .mt-5{
@@ -575,8 +591,16 @@ video {
   display: flex;
 }
 
+.hidden{
+  display: none;
+}
+
 .h-28{
   height: 7rem;
+}
+
+.w-1\/2{
+  width: 50%;
 }
 
 .w-12{
@@ -645,13 +669,8 @@ video {
 }
 
 .px-maxScreen{
-  padding-left: calc((100% - 1280px) / 2);
-  padding-right: calc((100% - 1280px) / 2);
-}
-
-.py-12{
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-left: calc((100% - 1480px) / 2);
+  padding-right: calc((100% - 1480px) / 2);
 }
 
 .py-32{
@@ -674,12 +693,20 @@ video {
   padding-bottom: 2rem;
 }
 
+.pb-16{
+  padding-bottom: 4rem;
+}
+
 .pb-28{
   padding-bottom: 7rem;
 }
 
 .pb-4{
   padding-bottom: 1rem;
+}
+
+.pt-20{
+  padding-top: 5rem;
 }
 
 .pt-24{
@@ -748,4 +775,11 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@media (min-width: 1280px){
+  .xl\:px-maxScreen{
+    padding-left: calc((100% - 1480px) / 2);
+    padding-right: calc((100% - 1480px) / 2);
+  }
 }

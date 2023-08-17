@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       spacing: {
-        maxScreen: "calc((100% - 1280px) / 2)",
+        maxScreen: "calc((100% - 1480px) / 2)",
       },
 
       fontFamily: {
