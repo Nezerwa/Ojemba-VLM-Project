@@ -542,12 +542,29 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.absolute{
+  position: absolute;
+}
+
 .relative{
   position: relative;
 }
 
+.-right-36{
+  right: -9rem;
+}
+
 .bottom-2{
   bottom: 0.5rem;
+}
+
+.z-10{
+  z-index: 10;
+}
+
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .-mt-1{
@@ -558,8 +575,16 @@ video {
   margin-top: -7rem;
 }
 
+.-mt-\[100px\]{
+  margin-top: -100px;
+}
+
 .mt-20{
   margin-top: 5rem;
+}
+
+.mt-24{
+  margin-top: 6rem;
 }
 
 .mt-5{
@@ -570,8 +595,16 @@ video {
   display: flex;
 }
 
+.hidden{
+  display: none;
+}
+
 .h-28{
   height: 7rem;
+}
+
+.w-1\/2{
+  width: 50%;
 }
 
 .w-12{
@@ -592,6 +625,10 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.max-w-7xl{
+  max-width: 80rem;
 }
 
 .rotate-180{
@@ -635,6 +672,11 @@ video {
   padding-right: 6rem;
 }
 
+.px-maxScreen{
+  padding-left: calc((100% - 1480px) / 2);
+  padding-right: calc((100% - 1480px) / 2);
+}
+
 .py-32{
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -650,14 +692,18 @@ video {
   padding-bottom: 1.25rem;
 }
 
-.px-maxScreen{
-  padding-left: calc((100% - 1280px) / 2);
-  padding-right: calc((100% - 1280px) / 2);
+.py-8{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .py-12{
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+.pb-16{
+  padding-bottom: 4rem;
 }
 
 .pb-28{
@@ -666,6 +712,10 @@ video {
 
 .pb-4{
   padding-bottom: 1rem;
+}
+
+.pt-20{
+  padding-top: 5rem;
 }
 
 .pt-24{
@@ -692,13 +742,38 @@ video {
   font-family: Roboto, sans-serif;
 }
 
+.font-montserrat{
+  font-family: Montserrat, sans-serif;
+}
+
+.font-raleway{
+  font-family: Raleway, sans-serif;
+}
+
+.text-\[60px\]{
+  font-size: 60px;
+}
+
 .text-sm{
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
 
+.font-\[20px\]{
+  font-weight: 20px;
+}
+
 .font-bold{
   font-weight: 700;
+}
+
+.leading-\[70px\]{
+  line-height: 70px;
+}
+
+.text-\[\#8ACC50\]{
+  --tw-text-opacity: 1;
+  color: rgb(138 204 80 / var(--tw-text-opacity));
 }
 
 .text-green-primary{
@@ -709,4 +784,11 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@media (min-width: 1280px){
+  .xl\:px-maxScreen{
+    padding-left: calc((100% - 1480px) / 2);
+    padding-right: calc((100% - 1480px) / 2);
+  }
 }
