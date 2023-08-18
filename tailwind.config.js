@@ -17,6 +17,7 @@ module.exports = {
         "green-primary-trans": "#8acc50a1",
         "green-secondary": "#116355",
         "primary-grey": "rgba(4,4,4,0.51)",
+        "quotes": "rgba(0, 19, 66, 0.80)"
       },
     },
   },
