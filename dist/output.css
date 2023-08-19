@@ -614,6 +614,11 @@ video {
   margin-right: 6rem;
 }
 
+.mx-20{
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
 .-mt-1{
   margin-top: -0.25rem;
 }
@@ -1025,6 +1030,11 @@ video {
   padding-bottom: 0.75rem;
 }
 
+.py-10{
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .pb-10{
   padding-bottom: 2.5rem;
 }
@@ -1083,6 +1093,18 @@ video {
 
 .pt-48{
   padding-top: 12rem;
+}
+
+.pt-32{
+  padding-top: 8rem;
+}
+
+.pr-96{
+  padding-right: 24rem;
+}
+
+.pl-48{
+  padding-left: 12rem;
 }
 
 .font-Roboto{
