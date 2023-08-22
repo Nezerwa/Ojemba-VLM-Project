@@ -29,6 +29,7 @@ module.exports = {
       screens: {
         "semixl" : "1150px",
         "abovexl": "1486px",
+        "xs": "450px"
       },
     },
   },
