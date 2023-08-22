@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       spacing: {
         maxScreen: "calc((100% - 1480px) / 2)",
+        medImage: "640px"
       },
 
       fontFamily: {
@@ -20,9 +21,15 @@ module.exports = {
         "green-secondary": "#116355",
         "primary-grey": "rgba(4,4,4,0.51)",
         quotes: "rgba(0, 19, 66, 0.80)",
+        "blue-primary": "#001342",
       },
       paddding: {
         71: "17rem",
+      },
+      screens: {
+        "semixl" : "1150px",
+        "abovexl": "1486px",
+        "xs": "450px"
       },
     },
   },
