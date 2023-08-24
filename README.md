@@ -3,7 +3,8 @@ This is a project for the VLM course at The Gym Rwanda.
 
 ## Presiquites
 You have to have these dependencies installed 
-``` Node.js 12.13 or higher
+```
+    Node.js 12.13 or higher
     npm 
 ```
 
@@ -11,7 +12,8 @@ You have to have these dependencies installed
 Clone [Repo](https://github.com/Nezerwa/Ojemba-VLM-Project) and run `npm install` in your terminal, then you can start developing!
 
 ## Usage
-```npm run build
+```
+   npm run build
    npm run watch
 ```
 
