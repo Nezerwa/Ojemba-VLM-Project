@@ -8,7 +8,7 @@ You have to have these dependencies installed
 ```
 
 ## Install
-Clone this https://github.com/Nezerwa/Ojemba-VLM-Project and run `npm install` in your terminal, then you can start developing!
+Clone [Repo](https://github.com/Nezerwa/Ojemba-VLM-Project) and run `npm install` in your terminal, then you can start developing!
 
 ## Usage
 ```npm run build
@@ -16,10 +16,10 @@ Clone this https://github.com/Nezerwa/Ojemba-VLM-Project and run `npm install` i
 ```
 
 ## Support 
-```
-Download VSCode here https://code.visualstudio.com/
-Download node js here https://nodejs.org/en
-```
+
+[Vscode editor](https://code.visualstudio.com/)
+[Nodejs](https://nodejs.org/en)
+
 
 ## Contributors
 [] Agasaro Ndiramiye Elsie elsieagasarondiramiye@gmail.com
