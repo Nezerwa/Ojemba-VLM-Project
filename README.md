@@ -35,3 +35,5 @@ https://steady-chebakia-8d031c.netlify.app/
 
 ## Preview ![image](https://github.com/Nezerwa/Ojemba-VLM-Project/assets/78850411/801cf5ac-73a6-48a9-b12b-8550280bcdf1)
 
+![ alt text] (https://img.io/badge/Tesla-3-CC0000?style=for-the-badge/Tesla
+
