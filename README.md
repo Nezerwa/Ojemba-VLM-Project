@@ -8,7 +8,7 @@ You have to have these dependencies installed
 ```
 
 ## Install
-Clone this (rero)[https://github.com/Nezerwa/Ojemba-VLM-Project] and run `npm install` in your terminal, then you can start developing!
+Clone this https://github.com/Nezerwa/Ojemba-VLM-Project and run `npm install` in your terminal, then you can start developing!
 
 ## Usage
 ```npm run build
