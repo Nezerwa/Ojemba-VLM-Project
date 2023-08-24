@@ -22,13 +22,13 @@ Download node js here https://nodejs.org/en
 ```
 
 ## Contributors
-Agasaro Ndiramiye Elsie elsieagasarondiramiye@gmail.com
+[] Agasaro Ndiramiye Elsie elsieagasarondiramiye@gmail.com
 
-Penine Ngizwenayo peninangizwenayo@gmail.com
+[] Penine Ngizwenayo peninangizwenayo@gmail.com
 
-Alian Ishimwe Migabo alainmigabo2k03@gmail.com
+[] Alian Ishimwe Migabo alainmigabo2k03@gmail.com
 
-ElieGrand Nezerwa eligrand2000@gmail.com
+[] ElieGrand Nezerwa eligrand2000@gmail.com
 
 ## Live Demo
 https://steady-chebakia-8d031c.netlify.app/
