@@ -1,7 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Tilt+Prism&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;0,700;1,400;1,700&family=Roboto:wght@300;400;700&family=Tilt+Prism&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Raleway:ital,wght@0,500;0,700;1,400;1,700&family=Roboto:wght@300;400;700&family=Tilt+Prism&display=swap');
+details summary div::before {
+  content: "+";
+}
+details[open] summary div::before {
+  content: "-";
+}
+details summary ~ p {
+  padding-top: 1rem;
+  font-weight: 500;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Tilt+Prism&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;0,700;1,400;1,700&family=Roboto:wght@300;400;700&family=Tilt+Prism&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Raleway:ital,wght@0,500;0,700;1,400;1,700&family=Roboto:wght@300;400;700&family=Tilt+Prism&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
