@@ -27,9 +27,12 @@ module.exports = {
         71: "17rem",
       },
       screens: {
+        "xs": "450px",
+        "xmd": "849px",
+        "semilg": "1081px",
         "semixl" : "1150px",
-        "abovexl": "1486px",
-        "xs": "450px"
+        'xxl':'1400px',
+        "abovexl": "1486px"
       },
     },
   },
