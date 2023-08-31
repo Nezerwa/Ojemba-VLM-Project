@@ -28,8 +28,7 @@ module.exports = {
       },
       screens: {
         "xs": "450px",
-        "xmd": "849px",
-        "semilg": "1081px",
+        "xmd": "900px",
         "semixl" : "1150px",
         'xxl':'1400px',
         "abovexl": "1486px"
