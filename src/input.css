@@ -6,13 +6,9 @@
 @tailwind components;
 @tailwind utilities;
 
-details summary div::before {
-    content: "+";
-  }
-  details[open] summary div::before {
-    content: "-";
-  }
-  details summary ~ p {
-    padding-top: 1rem;
-    font-weight: 500;
-  }
+html {
+  scroll-behavior: smooth;
+}
+details[open] summary div::before {
+  content: "-";
+}

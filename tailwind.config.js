@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       spacing: {
-        maxScreen: "calc((100% - 1480px) / 2)",
-        medImage: "640px"
+        "65": "calc((100% - 92.5rem) / 2)",
+        "160": "40rem",
       },
 
       fontFamily: {
@@ -15,23 +15,21 @@ module.exports = {
         montserrat: ["Montserrat", "sans-serif"],
       },
       colors: {
-        gp: "#001342",
+        "dark-blue": "#001342",
         "green-primary": "#8ACC50",
         "green-primary-trans": "#8acc50a1",
         "green-secondary": "#116355",
         "primary-grey": "rgba(4,4,4,0.51)",
-        quotes: "rgba(0, 19, 66, 0.80)",
+        "light-blue": "rgba(0, 19, 66, 0.80)",
         "blue-primary": "#001342",
       },
-      paddding: {
+      padding: {
         71: "17rem",
       },
       screens: {
-        "xs": "450px",
-        "xmd": "900px",
-        "semixl" : "1150px",
-        'xxl':'1400px',
-        "abovexl": "1486px"
+        "smaller": "450px",
+        "2md": "900px",
+        "2lg": "1150px",
       },
     },
   },
