@@ -4,8 +4,10 @@ module.exports = {
   theme: {
     extend: {
       spacing: {
-        maxScreen: "calc((100% - 1480px) / 2)",
-        medImage: "640px",
+        // maxScreen: "calc((100% - 1480px) / 2)",
+        "65": "calc((100% - 92.5rem) / 2)",
+        // medImage: "640px",
+        "160": "40rem",
       },
 
       fontFamily: {
@@ -27,11 +29,9 @@ module.exports = {
         71: "17rem",
       },
       screens: {
-        xs: "450px",
-        xmd: "900px",
-        semixl: "1150px",
-        xxl: "1400px",
-        abovexl: "1486px",
+        "smaller": "450px",
+        "2md": "900px",
+        "2lg": "1150px",
       },
     },
   },
