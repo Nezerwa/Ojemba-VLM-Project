@@ -4,9 +4,7 @@ module.exports = {
   theme: {
     extend: {
       spacing: {
-        // maxScreen: "calc((100% - 1480px) / 2)",
         "65": "calc((100% - 92.5rem) / 2)",
-        // medImage: "640px",
         "160": "40rem",
       },
 
