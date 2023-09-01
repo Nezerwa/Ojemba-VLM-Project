@@ -15,12 +15,12 @@ module.exports = {
         montserrat: ["Montserrat", "sans-serif"],
       },
       colors: {
-        'darkBlue': "#001342",
+        "darkBlue": "#001342",
         "green-primary": "#8ACC50",
         "green-primary-trans": "#8acc50a1",
         "green-secondary": "#116355",
         "primary-grey": "rgba(4,4,4,0.51)",
-        'lightBlue': "rgba(0, 19, 66, 0.80)",
+        "lightBlue": "rgba(0, 19, 66, 0.80)",
         "blue-primary": "#001342",
       },
       padding: {
